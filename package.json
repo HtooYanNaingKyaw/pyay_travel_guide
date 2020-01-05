@@ -1,0 +1,22 @@
+{
+  "name": "pyay_travel_guide",
+  "version": "1.0.0",
+  "description": "Pyay travelling guide for visitor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "serverstart": "DEBUG=myportfolio:* npm run dev",
+    "lint": "eslint ./src"
+  },
+  "author": "@htooyannaingkyaw",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mysql": "2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
