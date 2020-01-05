@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "serverstart": "DEBUG=myportfolio:* npm run dev",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "start": "node index.js"
   },
   "author": "@htooyannaingkyaw",
   "license": "ISC",
